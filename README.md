@@ -29,7 +29,7 @@ Mac 测试可用，Windows 尚未测试
 8. Good luck
 
 
-Mac版本下载：https://pan.baidu.com/s/1geTeKNp
+Mac版本下载：https://pan.baidu.com/s/1geTeKNp 密码: 5nge
 
 ### 部分文档截图
 
