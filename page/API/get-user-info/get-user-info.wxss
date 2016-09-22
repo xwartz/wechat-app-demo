@@ -1,0 +1,9 @@
+.userinfo-avatar {
+  border-radius: 128rpx;
+  width: 128rpx;
+  height: 128rpx;
+}
+.userinfo-nickname {
+  margin-top: 20rpx;
+  font-size: 38rpx;
+}

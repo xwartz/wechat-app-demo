@@ -1,0 +1,28 @@
+<import src="../common/header.wxml" />
+<import src="../common/footer.wxml" />
+
+<view class="container">
+  <template is="header" data="{{title: 'get/set/clearStorage'}}"/>
+
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <form bindsubmit="submitForm" id="123">
+        <view class="page-body-form">
+          <view class="page-body-form-item" style="border-bottom: none;">
+            <input class="page-body-form-key" type="text" placeholder="key" name="key" value="{{key}}"></input>
+            <input class="page-body-form-value" type="text" placeholder="data" name="data" value="{{data}}"></input>
+          </view>
+        </view>
+        <view class="page-body-buttons">
+          <button class="page-body-button" type="primary" id="get" formType="submit">读取数据</button>
+          <button class="page-body-button" id="set" formType="submit">存储数据</button>
+          <button class="page-body-button" id="clear" formType="submit">清理数据</button>
+        </view>
+      </form>
+    </view>
+  </view>
+
+  <toast hidden="{{toast.hidden}}" bindchange="toastChange">{{toast.content}}</toast>
+
+  <template is="footer" />
+</view>

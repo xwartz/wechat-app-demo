@@ -1,0 +1,9 @@
+.image {
+  width: 300rpx;
+  height: 300rpx;
+}
+.image-plus {
+  width: 150rpx;
+  height: 150rpx;
+  border: 1px solid #bbb;
+}

@@ -1,0 +1,21 @@
+.images-wrapper {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+}
+.images-wrapper-text {
+  font-size: 28rpx;
+}
+.images-list {
+  display: flex;
+  margin-top: 20rpx;
+  flex-wrap: wrap;
+}
+.images-image {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 10rpx;
+}
+.images-image-plus {
+  border: 1px solid #999;
+}

@@ -1,0 +1,99 @@
+{
+  "pages": [
+      "page/component/index",
+      "page/component/navigation-pages/controller/controller",
+      "page/component/navigation-pages/form/form",
+      "page/component/navigation-pages/media/media",
+      "page/component/navigation-pages/view/view",
+      "page/component/component-pages/wx-action-sheet/wx-action-sheet",
+      "page/component/component-pages/wx-audio/wx-audio",
+      "page/component/component-pages/wx-button/wx-button",
+      "page/component/component-pages/wx-checkbox/wx-checkbox",
+      "page/component/component-pages/wx-form/wx-form",
+      "page/component/component-pages/wx-icon/wx-icon",
+      "page/component/component-pages/wx-image/wx-image",
+      "page/component/component-pages/wx-input/wx-input",
+      "page/component/component-pages/wx-mask/wx-mask",
+      "page/component/component-pages/wx-modal/wx-modal",
+      "page/component/component-pages/wx-navigator/wx-navigator",
+      "page/component/component-pages/wx-progress/wx-progress",
+      "page/component/component-pages/wx-radio/wx-radio",
+      "page/component/component-pages/wx-scroll-view/wx-scroll-view",
+      "page/component/component-pages/wx-slider/wx-slider",
+      "page/component/component-pages/wx-switch/wx-switch",
+      "page/component/component-pages/wx-text/wx-text",
+      "page/component/component-pages/wx-toast/wx-toast",
+      "page/component/component-pages/wx-video/wx-video",
+      "page/component/component-pages/wx-view/wx-view",
+      "page/component/component-pages/wx-swiper/wx-swiper",
+      "page/component/component-pages/wx-slide-tab/wx-slide-tab",
+      "page/component/component-pages/wx-label/wx-label",
+      "page/component/component-pages/wx-navigator/navigate",
+      "page/component/component-pages/wx-navigator/redirect",
+      "page/component/component-pages/wx-picker/wx-picker",
+
+      "page/API/index/index",
+      "page/API/storage/storage",
+
+      "page/API/login/login",
+      "page/API/get-user-info/get-user-info",
+      "page/API/request-payment/request-payment",
+
+      "page/API/set-navigation-bar-title/set-navigation-bar-title",
+      "page/API/navigation-bar-loading/navigation-bar-loading",
+      "page/API/navigator/navigator",
+      "page/API/pull-down-refresh/pull-down-refresh",
+      "page/API/animation/animation",
+
+      "page/API/get-network-type/get-network-type",
+      "page/API/get-system-info/get-system-info",
+      "page/API/on-compass-change/on-compass-change",
+
+      "page/API/request/request",
+      "page/API/web-socket/web-socket",
+      "page/API/upload-file/upload-file",
+      "page/API/download-file/download-file",
+      
+
+      "page/API/image/image",
+      "page/API/voice/voice",
+      "page/API/file/file",
+      "page/API/on-accelerometer-change/on-accelerometer-change",
+      "page/API/canvas/canvas",
+      "page/API/background-audio/background-audio",
+
+      "page/API/get-location/get-location",
+      "page/API/open-location/open-location"
+
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序演示",
+    "navigationBarBackgroundColor": "#fbf9fe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "page/component/index",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "组件"
+    }, {
+      "pagePath": "page/API/index/index",
+      "iconPath": "image/wechat.png",
+      "selectedIconPath": "image/wechatHL.png",
+      "text": "接口"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
