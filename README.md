@@ -16,6 +16,8 @@ Mac版本下载： https://pan.baidu.com/s/1pLzY4Bp 密码: xitu
 ### 其他资源
 
 [微信小程序怎么开发？玩物志用一个上午上线了电商应用](http://www.ifanr.com/721124)
+
+
 [全球首个微信应用号开发教程！通宵吐血赶稿，每日更新！](https://my.oschina.net/wwnick/blog/750055)
 
 
