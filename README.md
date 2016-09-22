@@ -2,6 +2,8 @@
 
 微信小应用 demo，资源是 [v2ex](https://www.v2ex.com/t/308015#reply60) 群里小伙伴贡献的。
 
+[文档](http://notedown.cn/weixin/component/)
+
 ### 开发工具下载：
 
 Win版本下载：https://pan.baidu.com/s/1dEEVITV 密码: xitu
