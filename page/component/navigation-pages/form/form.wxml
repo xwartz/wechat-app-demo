@@ -1,3 +1,4 @@
+<view class="div-view">
     <button type="default" catchtap="checkbox" class="index-button">checkbox</button>
     <button type="default" catchtap="radio" class="index-button">radio</button>
     <button type="default" catchtap="form" class="index-button">form</button>
@@ -6,3 +7,4 @@
     <button type="default" catchtap="input" class="index-button">input</button>
     <button type="default" catchtap="label" class="index-button">label</button>
     <button type="default" catchtap="picker" class="index-button">picker</button>
+</view>
