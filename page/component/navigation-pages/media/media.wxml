@@ -1,5 +1,5 @@
 <view class="div-view">
-    <button type="default" bindtap="image" class="index-button">image</button>
-    <button type="default" bindtap="audio" class="index-button">audio</button>
-    <button type="default" bindtap="video" class="index-button">video</button>
+    <button type="default" catchtap="image" class="index-button">image</button>
+    <button type="default" catchtap="audio" class="index-button">audio</button>
+    <button type="default" catchtap="video" class="index-button">video</button>
 </view>
