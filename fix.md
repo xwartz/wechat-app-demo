@@ -1,3 +1,4 @@
+### updated 2016-09-24 20:51
 #### bug：
 组件中：
 - 内容分区/scroll-view中，click me to top按钮无效（done）
