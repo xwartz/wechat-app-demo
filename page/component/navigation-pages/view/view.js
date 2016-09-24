@@ -1,5 +1,5 @@
 var components = [
-  'progress', 'toast', 'scroll-view', 'text', 'view', 'mask', 'icon', 'spinner', 'swiper', 'slide-tab'
+  'progress', 'toast', 'scroll-view', 'text', 'view', 'icon', 'spinner', 'swiper', 'slide-tab'
 ]
 var pageData = {}
 for(var i = 0; i < components.length; ++i) {

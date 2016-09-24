@@ -2,15 +2,19 @@
 <import src="../common/footer.wxml" />
 
 <view class="container">
-  <template is="header" data="{{title: 'createCanvas'}}"/>
+  <template is="header" data="{{title: 'createContext'}}"/>
 
   <view class="page-body">
     <view class="page-body-wrapper">
-      <canvas canvas-id="canvas" class="canvas"></canvas>
+      <canvas class="canvas-element" canvas-id="canvas"></canvas>
+      <view class="canvas-buttons" scroll-y="true">
+        <block wx:for="{{methods}}" wx:for-item="method">
+          <button class="canvas-button" bindtap="{{method}}">{{method}}</button>
+        </block>
+      </view>
     </view>
   </view>
 
   <template is="footer" />
 </view>
-
 

@@ -15,7 +15,10 @@
           <image src="{{savedFilePath}}" class="image"></image>
         </block>
         <block wx:if="{{tempFilePath === '' && savedFilePath === ''}}">
-          <image src="/image/plus.png" class="image-plus" bindtap="chooseImage"></image>
+          <view class="image-plus" bindtap="chooseImage">
+            <view class="image-plus-horizontal"></view>
+            <view class="image-plus-vertical"></view>
+          </view>
         </block>
       </view>
       <view class="page-body-buttons">

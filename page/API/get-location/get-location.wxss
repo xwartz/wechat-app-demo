@@ -1,3 +1,6 @@
+.page-body-info {
+  height: 250rpx;
+}
 .page-body-text-small {
   font-size: 24rpx;
   color: #000;

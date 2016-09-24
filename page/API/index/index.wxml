@@ -1,7 +1,7 @@
 <view class="container">
   <view class="header">
       <view class="title">小程序接口</view>
-      <view class="desc">为便于开发者直观了解小程序接口能力，该小程序就当前已支持的接口能力进行演示。</view>
+      <view class="desc">这里就当前已支持的接口能力进行演示</view>
   </view>
 
   <view class="menu-list">

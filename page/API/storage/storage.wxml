@@ -6,23 +6,21 @@
 
   <view class="page-body">
     <view class="page-body-wrapper">
-      <form bindsubmit="submitForm" id="123">
-        <view class="page-body-form">
-          <view class="page-body-form-item" style="border-bottom: none;">
-            <input class="page-body-form-key" type="text" placeholder="key" name="key" value="{{key}}"></input>
-            <input class="page-body-form-value" type="text" placeholder="data" name="data" value="{{data}}"></input>
-          </view>
+      <view class="page-body-form">
+        <view class="page-body-form-item" style="border-bottom: none;">
+          <input class="page-body-form-key" type="text" placeholder="key" name="key" value="{{key}}" bindinput="keyChange"></input>
+          <input class="page-body-form-value" type="text" placeholder="data" name="data" value="{{data}}" bindinput="dataChange"></input>
         </view>
-        <view class="page-body-buttons">
-          <button class="page-body-button" type="primary" id="get" formType="submit">读取数据</button>
-          <button class="page-body-button" id="set" formType="submit">存储数据</button>
-          <button class="page-body-button" id="clear" formType="submit">清理数据</button>
-        </view>
-      </form>
+      </view>
+      <view class="page-body-buttons">
+        <button class="page-body-button" type="primary" bindtap="setStorage">存储数据</button>
+        <button class="page-body-button" bindtap="getStorage">读取数据</button>
+        <button class="page-body-button" bindtap="clearStorage">清理数据</button>
+      </view>
     </view>
   </view>
 
-  <toast hidden="{{toast.hidden}}" bindchange="toastChange">{{toast.content}}</toast>
+  <modal title="{{dialog.title}}" hidden="{{dialog.hidden}}" no-cancel bindconfirm="confirm">{{dialog.content}}</modal>
 
   <template is="footer" />
 </view>

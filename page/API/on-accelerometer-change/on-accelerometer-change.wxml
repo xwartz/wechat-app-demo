@@ -6,7 +6,7 @@
 
   <view class="page-body">
     <view class="page-body-wrapper">
-      <text class="page-body-text">旋转手机即可移动以下小球</text>
+      <text class="page-body-text">倾斜手机即可移动下方小球</text>
       <view class="page-body-canvas">
         <canvas class="page-body-ball" show="{{true}}" canvas-id="big-ball"></canvas>
         <canvas class="page-body-ball" show="{{true}}" canvas-id="small-ball"></canvas>

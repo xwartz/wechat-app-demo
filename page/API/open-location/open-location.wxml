@@ -10,19 +10,19 @@
         <view class="page-body-form">
           <view class="page-body-form-item">
             <text class="page-body-form-key">经度</text>
-            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="113.324520" name="longitude"></input>
+            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="{{longitude}}" name="longitude"></input>
           </view>
           <view class="page-body-form-item">
             <text class="page-body-form-key">纬度</text>
-            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="23.099994" name="latitude"></input>
+            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="{{latitude}}" name="latitude"></input>
           </view>
           <view class="page-body-form-item">
             <text class="page-body-form-key">位置名称</text>
-            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="T.I.T 创意园" name="name"></input>
+            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="获取本地地址" name="name"></input>
           </view>
           <view class="page-body-form-item" style="border-bottom: none;">
             <text class="page-body-form-key">详细位置</text>
-            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="广州市海珠区新港中路397号" name="address"></input>
+            <input class="page-body-form-value" type="text" disabled="{{true}}"  value="改为本地地址" name="address"></input>
           </view>
         </view>
         <view class="page-body-buttons">

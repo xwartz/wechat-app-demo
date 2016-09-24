@@ -1,31 +1,31 @@
 .header {
-  padding: 40px;
+  padding: 80rpx;
+  line-height: 1;
 }
 .title {
-  font-size: 30px;
+  font-size: 52rpx;
 }
 .desc {
-  margin-top: 5px;
+  margin-top: 10rpx;
   color: #888888;
-  font-size: 14px;
-  line-height: 1.4;
+  font-size: 28rpx;
 }
 .menu-list {
   display: flex;
   flex-direction: column;
   background-color: #fbf9fe;
+  margin-top: 10rpx;
 }
 .menu-item {
   color: #000000;
   display: flex;
   background-color: #fff;
-  margin: 10rpx 40rpx;
+  margin: 10rpx 30rpx;
   flex-direction: column;
 }
 .menu-item-main {
   display: flex;
-  height: 100rpx;
-  padding: 20rpx;
+  padding: 40rpx;
   border-radius: 10rpx;
   align-items: center;
   font-size: 32rpx;
@@ -60,7 +60,7 @@
   justify-content: space-between;
   height: 80rpx;
   padding: 20rpx 20rpx 20rpx 0;
-  margin-left: 20rpx;
+  margin-left: 40rpx;
   align-items: center;
   border-top: 1px solid #f0f0f0;
 }

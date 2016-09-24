@@ -78,7 +78,10 @@ Page({
   clear: function () {
     this.data.recordTime = 0
     this.data.playTime = 0
+    clearInterval(playTimeInterval)
+    wx.stopVoice()
     this.setData({
+      playing: false,
       hasRecord: false,
       tempFilePath: '',
       formatedRecordTime: util.formatTime(0)

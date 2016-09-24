@@ -1,7 +1,7 @@
 Page({
   data: {
     menuList: [{
-      name: '基础能力',
+      name: '开放接口',
       APIList: [{
         zhName: '微信登录',
         enName: 'login',
@@ -12,12 +12,12 @@ Page({
         url: '../get-user-info/get-user-info'
       }, {
         zhName: '发起支付',
-        enName: 'RequestPayment',
+        enName: 'requestPayment',
         url: '../request-payment/request-payment'
       }],
       opened: false
     }, {
-      name: '界面跳转、监听和加载',
+      name: '界面',
       opened: false,
       APIList: [{
         zhName: '设置界面标题',
@@ -45,7 +45,7 @@ Page({
         url: '../canvas/canvas'
       }]
     }, {
-      name: '设备相关',
+      name: '设备',
       opened: false,
       APIList: [{
         zhName: '获取手机网络状态',
@@ -65,15 +65,15 @@ Page({
         url: '../on-compass-change/on-compass-change'
       }]
     }, {
-      name: '网络相关',
+      name: '网络',
       opened: false,
       APIList: [{
         zhName: '发起一个请求',
         enName: 'request',
         url: '../request/request'
       }, {
-        zhName: 'Web Socket',
-        enName: 'Web Socket',
+        zhName: 'WebSocket',
+        enName: 'WebSocket',
         url: '../web-socket/web-socket'
       }, {
         zhName: '上传文件',
@@ -85,7 +85,7 @@ Page({
         url: '../download-file/download-file'
       }]
     }, {
-      name: '多媒体',
+      name: '媒体',
       opened: false,
       APIList: [{
         zhName: '图片',
@@ -105,11 +105,7 @@ Page({
         url: '../file/file'
       }]
     }, {
-      name: '数据',
-      opened: false,
-      url: '../storage/storage'
-    }, {
-      name: '地理位置',
+      name: '位置',
       opened: false,
       APIList: [{
         zhName: '获取当前位置',
@@ -120,6 +116,10 @@ Page({
         enName: 'openLocation',
         url: '../open-location/open-location'
       }]
+    }, {
+      name: '数据',
+      opened: false,
+      url: '../storage/storage'
     }]
   },
   tapMenuItem: function (e) {
@@ -129,8 +129,22 @@ Page({
     } else {
       var changeData = {}
       var opened = menuItem.opened
+      var index = parseInt(e.currentTarget.id)
 
-      changeData['menuList[' + e.currentTarget.id + '].opened'] = !opened
+      // 展开操作
+      if (opened === false) {
+        var openedIndex = -1
+        this.data.menuList.forEach(function (menu, i) {
+          if (menu.opened === true) {
+            openedIndex = i
+          }
+        })
+        if (openedIndex > -1) {
+          changeData['menuList[' + openedIndex + '].opened'] = false
+        }
+      }
+
+      changeData['menuList[' + index + '].opened'] = !opened
       this.setData(changeData)
     }
   }
