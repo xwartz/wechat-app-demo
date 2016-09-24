@@ -7,7 +7,8 @@ function formatTime(time) {
   time = time % 3600
   var minute = parseInt(time / 60)
   time = time % 60
-  var second = time
+  // 这里秒钟也取整
+  var second = parseInt(time)
 
   return ([hour, minute, second]).map(function (n) {
     n = n.toString()

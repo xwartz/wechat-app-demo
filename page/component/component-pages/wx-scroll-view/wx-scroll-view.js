@@ -13,7 +13,7 @@ Page({
     console.log(e)
   },
   scrollToTop: function(e) {
-    this.setAction({
+    this.setData({
       scrollTop: 0
     })
   },

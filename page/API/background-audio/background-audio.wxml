@@ -22,14 +22,20 @@
         <view class="page-body-button" bindtap="pause">
           <image src="/image/pause.png"></image>
         </view>
+        <view class="page-body-button" bindtap="play">
+          <text class="restart">重播</text>
+        </view>
       </block>
       <block wx:if="{{playing === false}}">
         <view class="page-body-button"></view>
-        <view class="page-body-button" bindtap="play">
+        <view class="page-body-button" bindtap="resume">
           <image src="/image/play.png"></image>
         </view>
+        <view class="page-body-button" bindtap="play">
+          <text class="restart">重播</text>
+        </view>
       </block>
-      <view class="page-body-button"></view>
+      <!-- <view class="page-body-button"></view> -->
     </view>
   </view>
 

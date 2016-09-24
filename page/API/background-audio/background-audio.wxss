@@ -28,3 +28,6 @@
   width: 250rpx;
   text-align: center;
 }
+.page-body-button .restart{
+  line-height: 80px;
+}
