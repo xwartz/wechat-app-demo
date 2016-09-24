@@ -1,10 +1,11 @@
 ## webApp-demo
 
+![](./demo.png)
+
 微信小程序 demo / 开发工具 / 文档资源
 
 为了方便更新, 后续资源全部更新到 [wiki](https://github.com/xwartz/wechatApp-demo/wiki)
 
-![](./demo.png)
 
 ### 资源
 
