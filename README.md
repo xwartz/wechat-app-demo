@@ -15,3 +15,4 @@
 
 开发工具: https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html?t=1474644089359
 
+demo很好，我可以转载到[微信小程序联盟](http://www.wxapp-union.com/)吗？
