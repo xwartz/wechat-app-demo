@@ -13,7 +13,7 @@
           <text class="page-body-text">点击绿色按钮可获取用户头像及昵称</text>
         </block>
         <block wx:if="{{hasUserInfo === true}}">
-          <wx-image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></wx-image>
+          <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}"></image>
           <text class="userinfo-nickname">{{userInfo.nickName}}</text>
         </block>
       </view>
